@@ -1,0 +1,4 @@
+vagrant ssh //for connecting to the server
+cd /vagrant // for moving the directory to vagrant directory
+source ~/env/bin/activate
+python manage.py runserver 0.0.0.0:8000
